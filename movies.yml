@@ -1,0 +1,36 @@
+---
+2: !ruby/object:Movie
+  title: Ghostbusters
+  director: Ivan Reitman
+  year: '1984'
+  id: 2
+3: !ruby/object:Movie
+  title: Forrest Gump
+  director: Robert Zemeckis
+  year: '1994'
+  id: 3
+6: !ruby/object:Movie
+  title: Gone with the Wind
+  director: Victor Fleming
+  year: '1939'
+  id: 6
+7: !ruby/object:Movie
+  title: Howl's Moving Castle
+  director: Hayao Miyazaki
+  year: '2004'
+  id: 7
+8: !ruby/object:Movie
+  title: Interstate 60
+  director: Bob Gale
+  year: '2002'
+  id: 8
+10: !ruby/object:Movie
+  title: Star Wars
+  director: George Lucas
+  year: '1977'
+  id: 10
+11: !ruby/object:Movie
+  title: ''
+  director: ''
+  year: ''
+  id: 11

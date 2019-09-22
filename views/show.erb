@@ -1,0 +1,18 @@
+<% @title = "My Movies — #{@movie.title}" %>
+
+<h1 class="overview_title"><%= @movie.title %></h1>
+
+<table class="overview_table center_block">
+  <tr>
+    <td><strong>Title:</strong></td>
+    <td><%= @movie.title %></td>
+  </tr>
+  <tr>
+    <td><strong>Director:</strong></td>
+    <td><%= @movie.director %></td>
+  </tr>
+  <tr>
+    <td><strong>Year:</strong></td>
+    <td><%= @movie.year %></td>
+  </tr>
+</table>

@@ -1,0 +1,122 @@
+body {
+    background-color: #AABDCD;
+    font-family: Tahoma, sans-serif;
+    color: #262F69;
+    text-align: center;
+}
+
+#mainblock {
+    width: 525px;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+    border-style: none;
+}
+
+#mainblock div {
+    margin: 15px;
+    padding: 9px;
+    border-style: solid;
+    border-color: #5C82A1;
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: #FFFCF5;
+}
+
+#mainblock h1.overview_title{
+    word-break: break-word;
+    margin-top: 70px;
+}
+
+#mainblock .overview_table td:first-child{
+    text-align: right;
+}
+#mainblock .overview_table td:last-child{
+    text-align: left;
+    padding-left: 7px;
+}
+
+#mainblock .button{
+    border: 1px solid #1A4A72;
+    border-radius: 2px;
+    padding: 8px 0;
+    text-transform: uppercase;
+    width: 59px;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+#mainblock .button:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#mainblock .button.edit_form{
+    margin-top: 0;
+}
+
+#mainblock .button.edit_form.save{
+    background-color: #9BE2B6;
+    margin-top: 20px;
+    width: 100%;
+}
+#mainblock .button.edit_form.delete{
+    background-color: #FFB2B2;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+#mainblock .edit-table{
+    width: 216px;
+}
+
+.center_block{
+    margin: 0 auto;
+}
+
+.form_delete{
+    width: 211px;
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+#sec table{
+    width: 100%;
+}
+
+.edit_col {
+    width: 60px;
+}
+.title_col {
+    padding-left: 9px;
+    text-align: left;
+}
+.title_col a{
+    word-break: break-all;
+}
+
+a {
+    text-decoration: none;
+    color: #262F69;
+}
+a:hover{
+    color: #262F69;
+    font-weight: bold;
+}
+
+#third {
+    text-transform: uppercase;
+}
+
+
+h5 {
+    padding: 0px;
+    margin: 0px;
+}
+
+#add:hover {
+    text-decoration-line: underline;
+}

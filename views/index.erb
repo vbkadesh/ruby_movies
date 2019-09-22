@@ -1,0 +1,24 @@
+<div id="uppercase">
+<h1>My Movies</h1>
+</div>
+
+<div id="sec">
+  <table>
+    <% @movies.each do |movie| %>
+      <tr>
+        <td class="title_col">
+          <a href="/movies/<%= movie.id %>"><%= movie.title %></a>
+        </td>
+        <td class="edit_col">
+          <small><a class="edit" href="/movies/<%= movie.id %>/edit">edit</a></small>
+        </td>
+      </tr>
+    <% end %>
+</table>
+</div>
+
+<div id="uppercase">
+ <h5>
+   <a id="add" href="/movies/new">Add a New Movie</a>
+ </h5>
+</div>

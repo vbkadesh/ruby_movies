@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+     <meta charset="utf-8"/>
+     <title><%= @title || 'My Movies' %></title>
+     <link rel="stylesheet" href="/css/main.css"/>
+  </head>
+  <body >
+     <div id="mainblock">
+        <%= yield %>
+        <% unless @title.nil? %>
+          <a class="button" href="/movies">Home</a>
+        <% end %>
+    </div>
+  </body>
+</html>

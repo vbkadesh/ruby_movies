@@ -1,0 +1,26 @@
+---
+1: !ruby/object:Movie
+  title: Star Wars
+  director: George Lucas
+  year: '1977'
+  id: 1
+2: !ruby/object:Movie
+  title: Ghostbusters
+  director: Ivan Reitman
+  year: '1984'
+  id: 2
+3: !ruby/object:Movie
+  title: Forrest Gump
+  director: Robert Zemeckis
+  year: '1994'
+  id: 3
+4: !ruby/object:Movie
+  title: Beetlejuice
+  director: Tim Burton
+  year: '1988'
+  id: 4
+5: !ruby/object:Movie
+  title: Avengers
+  director: Vasilii Pupkin
+  year: '2019'
+  id: 5

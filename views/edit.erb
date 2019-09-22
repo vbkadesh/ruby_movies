@@ -1,0 +1,27 @@
+<% @title = "My Movies — Edit Movie" %>
+<h1 class="overview_title">Edit Movie: <%= @movie.title %></h1>
+<form method="post" action="/movies/<%= @movie.id %>/update">
+  <input type="hidden" name="_method" value="patch"/>
+  <table class="edit-table center_block">
+    <tr>
+      <td><label for="title">Title:</label></td>
+      <td><input type="text" name="title" value="<%= @movie.title %>"/></td>
+    </tr>
+    <tr>
+      <td><label for="director">Director:</label></td>
+      <td><input type="text" name="director" value="<%= @movie.director %>"/></td>
+    </tr>
+    <tr>
+      <td><label for="year">Year:</label></td>
+      <td><input type="text" name="year" value="<%= @movie.year %>"/></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input class="button edit_form save" type="submit" value="Save"/></td>
+    </tr>
+  </table>
+</form>
+
+<form class="form_delete center_block" action="/movies/<%= @movie.id %>/destroy" method="post" onsubmit="return confirm('Are you sure?');">
+  <input id="hidden" type="hidden" name="_method" value="delete"/>
+  <input type="submit" value="delete" class="button edit_form delete"/>
+</form>
